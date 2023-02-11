@@ -30,11 +30,22 @@ public class results extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            viewall = extras.getBoolean("viewall");
+            if (viewall)
+            {
+                TextView t;
+                t = findViewById(R.id.extra_skill_label);
+                t.setText("Danh sách các học bổng:");
+            }
+        }
+
         recyclerView = findViewById(R.id.results);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        adapter = new ProgramAdapter(this, schoolname, desciptions, tag, avatar);
+        adapter = new ProgramAdapter(this, schoolname, desciptions, tag, avatar, viewall);
         recyclerView.setAdapter(adapter);
         recyclerView.addOnItemTouchListener(
                 new RecyclerItemClickListener(this, recyclerView ,new RecyclerItemClickListener.OnItemClickListener() {
@@ -63,18 +74,6 @@ public class results extends AppCompatActivity {
                 Redo();
             }
         });
-
-        Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            viewall = extras.getBoolean("viewall");
-            if (viewall)
-            {
-                TextView t;
-                t = findViewById(R.id.extra_skill_label);
-                t.setText("Danh sách các học bổng:");
-            }
-        }
-
     }
 
     void Redo()
@@ -93,10 +92,7 @@ public class results extends AppCompatActivity {
     {
         Intent switchActivityIntent = new Intent(this, results_detail.class);
         switchActivityIntent.putExtra("index", index);
-        if (viewall)
-        {
-            switchActivityIntent.putExtra("viewall", true);
-        }
+        switchActivityIntent.putExtra("viewall", viewall);
         startActivity(switchActivityIntent);
     }
 }

@@ -48,7 +48,7 @@ public class Start_search extends AppCompatActivity {
         favoritechoice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Results();
+                Viewall();
             }
         });
 

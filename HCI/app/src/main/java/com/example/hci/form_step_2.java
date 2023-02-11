@@ -105,7 +105,7 @@ public class form_step_2 extends AppCompatActivity {
         MultiAutoCompleteTextView diemyeutextview = findViewById(R.id.diemyeu);
         diemyeutextview.setAdapter(adapter2);
         diemyeutextview.setThreshold(1);
-        diemmanhtextview.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
+        diemyeutextview.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
     }
 
     void Continue()

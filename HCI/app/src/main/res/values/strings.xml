@@ -20,7 +20,7 @@
     <string name="title_activity_view_review">view_review</string>
     <string name="title_activity_login">login</string>
     <string name="title_activity_register">register</string>
-    <string name="condition">&#8226; GPA: 8.5/10 hoặc 4/5.\n&#8226; Giải nhì trở lên cấp Tỉnh hoặc giải ba trở lên cấp Quốc gia.\n&#8226; Điểm trung bính tích lũy đạt 8.0 trở lên.\n&#8226; IELTS > 6.5 hoặc TOEFL 850.</string>
+    <string name="condition">&#8226; GPA: 6/10 hoặc 3/5.\n&#8226; Đã hoặc đang làm một dự án hoặc sản phẩm về phần mềm.\n&#8226; IELTS > 6.5 hoặc TOEFL 850.</string>
     <string name="requirement">&#8226; Hoàn thành nghĩa vụ học phí đúng qui định.\n&#8226; Không vi phạm từ mức đình chỉ trở lên.\n&#8226; Điểm trung bính tích lũy đạt 8.0 trở lên.\n&#8226; Không có môn không đạt.\n&#8226; Không có nhận học bổng nào khác trong năm.</string>
     <string name="title_activity_forgot_password">forgot_password</string>
     <string name="title_activity_form_step3">form_step_3</string>

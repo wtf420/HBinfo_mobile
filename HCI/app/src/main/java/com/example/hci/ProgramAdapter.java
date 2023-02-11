@@ -22,6 +22,8 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ViewHold
     int[] tag;
     int[] avatar;
 
+    boolean viewall;
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         TextView description;
@@ -61,12 +63,13 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ViewHold
         }
     }
 
-    public ProgramAdapter(Context context, int[] schoolname, String[] description, int[] tags, int[] avatar){
+    public ProgramAdapter(Context context, int[] schoolname, String[] description, int[] tags, int[] avatar, boolean viewall){
         this.context = context;
         this.schoolname = schoolname;
         this.description = description;
         this.tag = tags;
         this.avatar = avatar;
+        this.viewall = viewall;
     }
 
     @NonNull
@@ -91,7 +94,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.ViewHold
 
                 Intent openThree = new Intent(view.getContext(), results_detail.class);
                 openThree.putExtra("index", position);
-                openThree.putExtra("viewall", true);
+                openThree.putExtra("viewall", viewall);
                 view.getContext().startActivity(openThree);
             }
         });

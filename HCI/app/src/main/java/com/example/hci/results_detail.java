@@ -134,10 +134,7 @@ public class results_detail extends AppCompatActivity {
     void Return()
     {
         Intent switchActivityIntent = new Intent(this, results.class);
-        if (viewall)
-        {
-            switchActivityIntent.putExtra("viewall", true);
-        }
+        switchActivityIntent.putExtra("viewall", viewall);
         startActivity(switchActivityIntent);
     }
 
