@@ -1,0 +1,169 @@
+<resources>
+    <string-array name="select_main_spinner_item">
+        <item> Ngành công nghệ thực phẩm</item>
+        <item> Ngành công nghệ chế biến sau thu hoạch</item>
+        <item> Ngành kỹ thuật dệt</item>
+        <item> Ngành kiến trúc</item>
+        <item> Ngành kinh tế và quản lý đô thị</item>
+        <item> Ngành kỹ thuật xây dựng</item>
+        <item> Ngành kinh tế xây dựng</item>
+        <item> Ngành quản lý xây dựng</item>
+        <item> Ngành quản trị kinh doanh</item>
+        <item> Ngành quản trị dịch vụ du lịch và lữ hành</item>
+        <item> Ngành quản trị khách sạn</item>
+        <item> Ngành Marketing</item>
+        <item> Ngành nghề môi giới bất động sản</item>
+        <item> Ngành kinh doanh quốc tế</item>
+        <item> Ngành kế toán</item>
+        <item> Ngành kiểm toán</item>
+        <item> Ngành quản trị nhân lực</item>
+        <item> Ngành hệ thống thông tin quản lý</item>
+        <item> Ngành quản trị văn phòng</item>
+        <item> Ngành khoa học - máy tính</item>
+        <item> Ngành truyền thông đa phương tiện</item>
+        <item> Ngành kỹ thuật phần mềm</item>
+        <item> Ngành công nghệ thông tin</item>
+        <item> Ngành triết học</item>
+        <item> Ngành lịch sử học</item>
+        <item> Ngành văn học</item>
+        <item> Ngành văn hóa học</item>
+        <item> Ngành quản lý văn hóa</item>
+        <item> Ngành quản lý thể dục thể thao</item>
+        <item> Ngành hội họa</item>
+        <item> Ngành đồ họa</item>
+        <item> Ngành điêu khắc</item>
+        <item> Ngành gốm</item>
+        <item> Ngành thiết kế công nghiệp</item>
+        <item> Ngành thiết kế đồ họa</item>
+        <item> Ngành thiết kế thời trang</item>
+        <item> Ngành thiết kế nội thất</item>
+        <item> Ngành kinh tế</item>
+        <item> Ngành kinh tế quốc tế</item>
+        <item> Ngành chính trị học</item>
+        <item> Ngành xây dựng đảng chỉnh quyền và nhà nước</item>
+        <item> Ngành quản lý nhà nước</item>
+        <item> Ngành quan hệ quốc tế</item>
+        <item> Ngành xã hội học</item>
+        <item> Ngành nhân văn</item>
+        <item> Ngành tâm lý học</item>
+        <item> Ngành báo chí</item>
+        <item> Ngành truyền thông đa phương tiện</item>
+        <item> Ngành công nghệ truyền thông</item>
+        <item> Ngành quan hệ công chúng</item>
+        <item> Ngành thông tin học</item>
+        <item> Ngành khoa học thư viện</item>
+        <item> Ngành lưu trữ học</item>
+        <item> Ngành bảo tàng học</item>
+        <item> Ngành xuất bản</item>
+        <item> Ngành kinh doanh xuất bản phẩm</item>
+        <item> Ngành công nghệ sinh học</item>
+        <item> Ngành sinh học</item>
+        <item> Ngành kỹ thuật sinh học</item>
+        <item> Ngành sinh học ứng dụng</item>
+        <item> Ngành thiên văn học</item>
+        <item> Ngành vật lý học</item>
+        <item> Ngành hóa học</item>
+        <item> Ngành khoa học vật liệu</item>
+        <item> Ngành địa chất học</item>
+        <item> Ngành địa lý tự nhiên</item>
+        <item> Ngành khí tượng học</item>
+        <item> Ngành thủy văn học</item>
+        <item> Ngành hải dương học</item>
+        <item> Ngành khoa học môi trường</item>
+        <item> Ngành khoa học đất</item>
+        <item> Ngành toán học</item>
+
+    </string-array>
+
+    <string-array name="financial_select">
+        <item>Đủ chi tiêu cho việc học và sở thích</item>
+        <item>Chỉ đủ đáp ứng việc học</item>
+        <item>Túng thiếu và cần hỗ trợ</item>
+    </string-array>
+
+    <string-array name="financial_select_2">
+        <item>Trên 50 triệu</item>
+        <item>Từ 20 - 50 triệu</item>
+        <item>Từ 10 - 20 triệu</item>
+        <item>Dưới 10 triệu và dựa vào bản thân</item>
+    </string-array>
+
+    <string-array name="extra_skills">
+        <item>Tư duy phản biện</item>
+        <item>Học hỏi nhanh</item>
+        <item>Giao tiếp tốt</item>
+        <item>Tự tìm tòi</item>
+        <item>Giàu</item>
+    </string-array>
+
+    <string-array name="activity_history">
+        <item>Không có</item>
+        <item>Tình nguyện</item>
+        <item>Khoá học kĩ năng mềm</item>
+    </string-array>
+
+    <string-array name="nation_list">
+        <item>Mỹ</item>
+        <item>Anh</item>
+        <item>Singapore</item>
+        <item>Trung Quốc</item>
+        <item>Nhật Bản</item>
+    </string-array>
+
+    <string-array name="schoolname">
+        <item>UIT</item>
+        <item>Bách Khoa</item>
+        <item>Khoa học tự nhiên</item>
+        <item>Hutech</item>
+        <item>FPT</item>
+    </string-array>
+
+    <string-array name="diemmanh">
+        <item>Trình độ chuyên môn giỏi</item>
+        <item>Thông thạo nhiều thứ tiếng (tiếng Anh, tiếng Trung, tiếng Nhật, tiếng Hàn,...)</item>
+        <item>Thành thạo tin học văn phòng</item>
+        <item>Trung thực, đáng tin cậy</item>
+        <item>Tinh thần trách nhiệm cao</item>
+        <item>Nhiệt tình, hăng hái, không ngại khó ngại khổ</item>
+        <item>Khả năng tư duy sáng tạo</item>
+        <item>Vui vẻ, tích cực với mọi người xung quanh</item>
+        <item>Tinh thần cầu tiến</item>
+        <item>Kỹ năng giao tiếp tốt</item>
+        <item>Làm việc có nguyên tắc, đúng giờ</item>
+        <item>Kỹ năng làm việc nhóm</item>
+        <item>Kỹ năng giải quyết vấn đề</item>
+        <item>Kỹ năng đàm phán, thương lượng</item>
+        <item>Kỹ năng bán hàng</item>
+        <item>Có nhiều tài lẻ (biết ca hát, chơi đàn, chơi sáo, làm MC,..)</item>
+    </string-array>
+
+    <string-array name="diemyeu">
+        <item>Nhạy cảm quá mức</item>
+        <item>Mất kiên nhẫn, cả thèm chóng chán</item>
+        <item>Không dám phát biểu trước đám đông</item>
+        <item>Tính háo thắng</item>
+        <item>Làm việc và ra quyết định thiên về cảm tính</item>
+        <item>Không lập kế hoạch rõ ràng trước khi thực hiện</item>
+        <item>Bảo thủ, không bao giờ lắng nghe góp ý của người khác</item>
+        <item>Khả năng tính toán kém</item>
+        <item>Sống ích kỷ, không có thói quen chia sẻ</item>
+        <item>Dễ nổi nóng và mất bình tĩnh</item>
+    </string-array>
+
+    <string-array name="yesnoonly">
+        <item>Có</item>
+        <item>Chưa có</item>
+    </string-array>
+
+    <string-array name="aa">
+        <item>Cần học bổng để có thể tiếp tục việc học</item>
+        <item>Học bổng sẽ giúp rất nhiều cho việc học</item>
+        <item>Có thì tốt, không có cũng được</item>
+    </string-array>
+
+    <string-array name="bb">
+        <item>Con thương binh liệt sĩ</item>
+        <item>Mồ côi cha, mẹ hoặc cả hai</item>
+        <item>Không</item>
+    </string-array>
+</resources>

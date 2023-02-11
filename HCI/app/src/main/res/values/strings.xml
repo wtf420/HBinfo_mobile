@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HCI</string>
+    <string name="title_activity_results_detail">results_detail</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="uit_schoolname">Trường ĐH Công nghệ thông tin &#10004;</string>
+    <string name="fpt_schoolname">Trường ĐH FPT &#10004;</string>
+    <string name="hcmut_schoolname">Trường ĐH Sư \nphạm kĩ thuật &#10004;</string>
+
+    <string name="uit_description">Trường Đại học Công nghệ Thông tin là một trường đại học công lập đào tạo về công nghệ thông tin và truyền thông là thành viên Đại học Quốc gia Thành phố Hồ Chí Minh, được thành lập theo Quyết định số 134/2006/QĐ-TTg ngày 8 tháng 6 năm 2006 của Thủ tướng Chính phủ.</string>
+    <string name="fpt_description">Chính thức thành lập ngày 8/9/2006 theo Quyết định của Thủ tướng Chính phủ, Trường Đại học FPT trở thành trường đại học đầu tiên của Việt Nam do một doanh nghiệp đứng ra thành lập với 100% vốn đầu tư từ Tập đoàn FPT.</string>
+    <string name="hcmute_description">Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh là một trường đại học đa ngành tại Việt Nam, với thế mạnh về đào tạo kỹ thuật, được đánh giá là một trong những trường đại học kỹ thuật hàng đầu về đào tạo khối ngành kỹ thuật tại miền Nam.</string>
+    <string name="title_activity_view_review">view_review</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_register">register</string>
+    <string name="condition">&#8226; GPA: 8.5/10 hoặc 4/5.\n&#8226; Giải nhì trở lên cấp Tỉnh hoặc giải ba trở lên cấp Quốc gia.\n&#8226; Điểm trung bính tích lũy đạt 8.0 trở lên.\n&#8226; IELTS > 6.5 hoặc TOEFL 850.</string>
+    <string name="requirement">&#8226; Hoàn thành nghĩa vụ học phí đúng qui định.\n&#8226; Không vi phạm từ mức đình chỉ trở lên.\n&#8226; Điểm trung bính tích lũy đạt 8.0 trở lên.\n&#8226; Không có môn không đạt.\n&#8226; Không có nhận học bổng nào khác trong năm.</string>
+    <string name="title_activity_forgot_password">forgot_password</string>
+    <string name="title_activity_form_step3">form_step_3</string>
+    <string name="title_activity_form_step4">form_step_4</string>
+</resources>
